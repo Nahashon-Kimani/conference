@@ -193,3 +193,23 @@ body{
     height: 100px;
     border-radius: 50%;
 }
+.ticketsBooking{
+    background-image: url('2.jpg');
+    min-height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white!important;
+    display: flex;
+    flex-direction: column;
+    /* vertical-align:; */
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+.ticketsBooking button:hover
+{
+    background-color: #dc3545;
+    transform: scale(.9);
+    transition: .7s linear;
+}
