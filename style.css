@@ -1,0 +1,195 @@
+body{
+	font-family: "Lato", sans-serif; 
+	-webkit-font-smoothing: antialiased; 
+	font-smooth:antialiased; 
+}
+.top-menu i{
+    color: #dc3545;
+    font-size: 32px;
+    padding-top: 20px;
+}
+.slider-img img{
+    height: 70vh;
+}
+.slider-img .carousel-caption{
+    background-color: #dc3545;
+    color: white;
+}
+.slider-img .carousel-caption h5{
+    font-size: 32px;
+    font-weight: 400;
+}
+.slider-img .carousel-caption p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.activity .card img
+{
+    height: 300px;
+}
+.activity .col-sm-12
+{
+    margin-bottom: 10px;
+}
+.activity .card img:hover
+{
+    opacity: .7;
+}
+.activity .card .card-body:hover{
+    background-color: #dc3545!important;
+    color: white;
+}
+.activity .card:hover{
+    transform: scale(1.005);
+    box-shadow: 0 10px 20px #dc35469d, 0 4px 8px #dc35469d;
+}
+.pricing{
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pricing .card{
+    border-top: 5px solid #dc3545;
+    border-bottom: 5px solid #dc3545;
+}
+.pricing .card.prefered{
+    box-shadow: 0 1px 2px #dc35469d, 0 50px 50px #dc35469d;
+}
+.pricing .card.prefered span.cents{
+    vertical-align: super;
+    font-size: smaller;
+}
+.pricing i{
+    color: #dc3545;
+    font-size: medium;
+}
+.pricing i:hover{
+    color: #dc3546ed;
+    transform: scale(1.5);
+    cursor: crosshair;
+    margin-left: 3px;
+}
+.calendar img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.calendar .card .row
+{
+    padding-top: 5px;
+    border-bottom: 2px solid #d2d2d2;
+}
+.buyTicket{
+    background-image: url('2.jpg');
+    min-height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: middle!important;
+}
+.buyTicket button:hover{
+    background-color: #dc3545;
+    color: white;
+    border: 1px groove white;
+    transform: scale(.9);
+    transition: .5s;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: #dc3545;
+    text-decoration: underline;
+    margin-right: 5px;
+    transition: .7s;
+    font-size: 18px;
+}
+.main-footer
+{
+    background-color: black;
+    color: white;
+}
+.main-footer a
+{
+    color: #dc3545;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.main-footer a:hover{
+    text-decoration: underline;
+    margin-left: 3px;
+    color: #dc3545ca;
+}
+
+/* Other pages */
+.bannerSection
+{
+    background-image: url('2.jpg');
+    min-height: 25vh;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    /* position: absolute;
+    left: 0;
+    bottom: 110px;
+    width: 100%; */
+}
+.event img.speaker
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.btn-square{
+    border-radius: 0%!important;
+}
+.event .image-part{
+    background-image: url('3.jpg');
+}
+.event .image-part.date_container {
+    position: absolute;
+	top: 40px;
+	left: 24px;
+}
+.event .date{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 91px;
+    height: 91px;
+    padding: 15px;
+    background-color: #dc3545;
+    background-image: linear-gradient(to right, #dc3545, #dc3546d0);
+    background: linear-gradient(to right, #dc3545, #dc3546d0);
+}
+/* Event page ends  */
+
+
+/* Speakers page */
+.speakers .speaker-profile
+{
+    padding-left: 100px!important;
+    padding-top: 120px!important;
+}
+.calendarNew p.header
+{
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.calendarNew img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
