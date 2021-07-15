@@ -194,7 +194,8 @@ body{
     border-radius: 50%;
 }
 .ticketsBooking{
-    background-image: url('2.jpg');
+    background: linear-gradient(#dc3546c9, #dc3546c9), 
+                url('2.jpg');
     min-height: 50vh;
     background-size: cover;
     background-attachment: fixed;
@@ -212,4 +213,41 @@ body{
     background-color: #dc3545;
     transform: scale(.9);
     transition: .7s linear;
+}
+.upper-footer ul {
+    list-style-type: none;
+}
+.upper-footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.upper-footer ul li a:hover{
+    color: #dc3545;
+    margin-left: 5px;
+    transition: .8s linear;
+    text-shadow: 2px 0px #ffffff;
+    text-transform: uppercase;
+}
+.credits
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.credits i
+{
+    color: #dc3545;
+    font-size: 20px;
+}
+.credits i:hover{
+    color: #dc3546a9;
+}
+.credits a{
+    text-decoration: none;
+    color: #dc3545;
+}
+.credits a:hover{
+    text-decoration: underline;
 }
