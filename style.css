@@ -251,3 +251,31 @@ body{
 .credits a:hover{
     text-decoration: underline;
 }
+.sessionBanner{
+    background: linear-gradient(#1eff0050, #1eff0050), url('3.jpg');
+    min-height: 20vh;
+    color: white;
+    padding-top: 7vh;
+}
+.sessionBanner .breadcrumb .breadcrumb-item{
+    color: white;
+}
+.sessionBanner .breadcrumb .breadcrumb-item a{
+    color: white;
+    text-decoration: none;
+}
+.sessionBanner .breadcrumb .breadcrumb-item a i{
+    color: white;
+    font-size: 20px;
+}
+.sessionBanner .breadcrumb .breadcrumb-item a:hover{
+    text-decoration: underline;
+    color: #1eff00;
+    transition: 2s linear;
+}
+.img-part{
+    background-image: url('3.jpg');
+}
+.sessions .date{
+    
+} 
